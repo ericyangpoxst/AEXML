@@ -118,4 +118,8 @@ open class AEXMLDocument: AEXMLElement {
         return xml
     }
     
+    // MARK: For SSML
+    open var ssml: String {
+        return root.xml
+    }
 }
